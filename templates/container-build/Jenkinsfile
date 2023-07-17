@@ -13,7 +13,7 @@ pipeline {
   }
   stages('Container build')
   {
-    stage('Build and Push Image') {
+    stage('Build and Push Images') {
       when {
         beforeAgent true
         anyOf {
